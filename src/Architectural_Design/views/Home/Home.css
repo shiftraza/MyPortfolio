@@ -9,4 +9,30 @@
   height: 100vh;
   z-index: -10;
 }
+.resume-container {
+  background: peru;
+  color: whitesmoke;
+  border-radius: 5px;
+  position: absolute;
 
+  padding-top: 3px;
+  padding-left: 5px;
+  margin-top: -10cm;
+  text-emphasis-position: under;
+  margin-left: 20%;
+  margin-right: 60%;
+  z-index: 10;
+}
+.anotherflash {
+  animation: blinker 1s linear infinite;
+  background-color: peru;
+  color: red;
+  font-weight: 1000;
+  z-index: 10;
+}
+
+@keyframes blinker {
+  40% {
+    opacity: 0;
+  }
+}

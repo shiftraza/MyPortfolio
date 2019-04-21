@@ -12,8 +12,8 @@ class Home extends Component {
         <div id="hero">
           <div id="hero-overlay" />
           <Body />
-          <Rez />
         </div>
+        <Rez />
       </div>
     );
   }
