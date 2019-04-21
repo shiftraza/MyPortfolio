@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Info.css";
+import Rez from "../../Body_Main/Stack";
 
 class Info extends Component {
   render() {
     return (
       <div>
         <Header />
+        <Rez />
       </div>
     );
   }
