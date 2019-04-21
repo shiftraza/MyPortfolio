@@ -46,4 +46,6 @@ a {
 }
 a:hover {
   color: red;
+  font-size: 30px;
+  font-size-adjust: 20px;
 }

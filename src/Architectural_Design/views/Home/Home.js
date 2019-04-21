@@ -15,6 +15,7 @@ class Home extends Component {
         </div>
         <Rez />
       </div>
+
     );
   }
 }

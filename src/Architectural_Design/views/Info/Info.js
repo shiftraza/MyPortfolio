@@ -2,13 +2,16 @@ import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Info.css";
 import Rez from "../../Body_Main/Stack";
-
+import ProjectDisplay from "../../Body_Main/ProjectDisplay";
+import Paragraph from "./Paragraph";
 class Info extends Component {
   render() {
+    const paragraph = "Welcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to ReactWelcome to React";
+    const header = "New World";
     return (
       <div>
         <Header />
-        <Rez />
+        <Paragraph paragraph={paragraph} header={header} />
       </div>
     );
   }
