@@ -1,0 +1,49 @@
+.Header {
+  background: #000000;
+  height: 95px;
+  position: relative;
+}
+.logo {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 10cm;
+  bottom: 0px;
+}
+
+.nav-bar {
+  position: absolute;
+  left: 35%;
+  bottom: -2px;
+  font-size: 17px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.home {
+  display: inline;
+  margin: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.contact {
+  display: inline;
+  margin: 30px;
+}
+.project {
+  display: inline;
+  margin: 30px;
+}
+.moreinfo {
+  display: inline;
+  margin: 30px;
+}
+
+a {
+  color: #bbbdbb;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  color: red;
+}
