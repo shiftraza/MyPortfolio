@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactPlayer from "react-player";
+
 import video1 from "../../../images/video/easy.mp4";
 import "./Projects.css";
 
@@ -14,3 +14,7 @@ class Video2 extends Component {
 }
 
 export default Video2;
+
+/*
+import ReactPlayer from "react-player";
+*/
