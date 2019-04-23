@@ -27,7 +27,7 @@ class Projects extends Component {
             <div id="test4">
               <Paragraph paragraph={paragraph} header={header} />
             </div>
-            <div className="video_test">
+            <div className="video">
               <Video2 />
             </div>
           </div>
