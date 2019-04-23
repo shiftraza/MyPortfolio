@@ -25,9 +25,12 @@
 }
 
 .paragraph {
-  width: 18cm;
+  width: 20cm;
   background-color: cyan;
   float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 
 .pictures {
@@ -38,5 +41,30 @@
 }
 
 .title {
-  text-indent: 2cm;
+  text-indent: 1cm;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.5cm;
+  color: green;
+}
+
+#test1 {
+  position: relative;
+  bottom: 0cm;
+  float: top;
+}
+#test2 {
+  position: relative;
+  bottom: -10cm;
+  float: bottom;
+}
+#test3 {
+  position: relative;
+  bottom: -20cm;
+  float: bottom;
+}
+
+#test4 {
+  position: relative;
+  bottom: -20cm;
+  float: bottom;
 }
