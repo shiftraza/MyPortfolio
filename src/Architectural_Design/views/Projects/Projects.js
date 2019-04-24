@@ -17,6 +17,11 @@ class Projects extends Component {
     const thirdparagraph =
       "This is the third project discrption. Hello hi howdy fml. What to do with my existence. This is the second project discrption. Hello hi howdy fml. What to do with my existence. This is the second project discrption. Hello hi howdy fml. What to do with my existence. This is the second project discrption. Hello hi howdy fml. What to do with my existence. ";
     const thirdheader = "Third Project";
+
+    const fourthparagraph =
+      "This is the fourth project discrption. Hello hi howdy fml. What to do with my existence. This is the second project discrption. Hello hi howdy fml. What to do with my existence. This is the second project discrption. Hello hi howdy fml. What to do with my existence. This is the second project discrption. Hello hi howdy fml. What to do with my existence. ";
+    const fourthheader = "Fourth Project";
+
     return (
       <div className="master">
         <div className="main">
@@ -32,7 +37,10 @@ class Projects extends Component {
               <Paragraph paragraph={thirdparagraph} header={thirdheader} />
             </div>
             <div id="test4">
-              <Paragraph paragraph={paragraph} header={header} />
+              <Paragraph paragraph={fourthparagraph} header={fourthheader} />
+            </div>
+            <div className="video">
+              <Video2 />
             </div>
             <div className="video">
               <Video2 />
