@@ -7,6 +7,7 @@ import Projects from "./Architectural_Design/views/Projects/Projects";
 import Home from "./Architectural_Design/views/Home/Home";
 import Body from "./Architectural_Design/Body_Main/Body";
 import Info from "./Architectural_Design/views/Info/Info";
+import Flex from "./Architectural_Design/Image_Component/flex";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -16,7 +17,7 @@ ReactDOM.render(
       <Route path="/about" component={About} />
       <Route exact path="/" component={Home} />
       <Route exact path="/projects" component={Projects} />
-      <Route exact path="/info" component={Info} />
+      <Route exact path="/info" component={Flex} />
       <Route exact path="/body" component={Body} />
     </div>
   </BrowserRouter>,
