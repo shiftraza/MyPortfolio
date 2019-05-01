@@ -45,7 +45,7 @@ class Flex extends Component {
 
         <div className="page">
           <section>
-            <h1>Image slideshow React tutorial.</h1>
+            <h1>Hello Hello</h1>
           </section>
 
           <div className="col">

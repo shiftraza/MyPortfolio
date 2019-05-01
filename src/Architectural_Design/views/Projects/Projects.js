@@ -3,7 +3,10 @@ import Header from "../../Design/header";
 import "./Projects.css";
 import Video2 from "./Video";
 import Paragraph from "../../views/Info/Paragraph";
+import Paragraph2 from "../../views/Info/Paragraph2";
+import Paragraph3 from "../../views/Info/Paragraph2";
 import "../Info/Info.css";
+
 class Projects extends Component {
   render() {
     const paragraph =
@@ -31,10 +34,10 @@ class Projects extends Component {
               <Paragraph paragraph={paragraph} header={header} />
             </div>
             <div id="test2">
-              <Paragraph paragraph={secondparagraph} header={secondheader} />
+              <Paragraph2 paragraph={secondparagraph} header={secondheader} />
             </div>
             <div id="test3">
-              <Paragraph paragraph={thirdparagraph} header={thirdheader} />
+              <Paragraph3 paragraph={thirdparagraph} header={thirdheader} />
             </div>
             <div id="test4">
               <Paragraph paragraph={fourthparagraph} header={fourthheader} />

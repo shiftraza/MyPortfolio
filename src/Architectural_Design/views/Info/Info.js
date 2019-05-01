@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Info.css";
 import Paragraph from "./Paragraph";
+
 class Info extends Component {
   render() {
     const paragraph =
@@ -10,7 +11,6 @@ class Info extends Component {
     return (
       <div>
         <Header />
-        <Paragraph paragraph={paragraph} header={header} />
       </div>
     );
   }

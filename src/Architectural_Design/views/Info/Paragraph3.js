@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./Info.css";
-import Slider from "../../Body_Main/ImageRouter/Image_Slider";
+import picture3 from "../../../images/img/Sunset.jpg";
 
-const Paragraph = props => (
+const Paragraph3 = props => (
   <div className="container">
     <div className="title">{props.header}</div>
     <p className="paragraph">{props.paragraph}</p>
-    <Slider />
+    <img className="pictures" src={picture3} />
   </div>
 );
 
-export default Paragraph;
+export default Paragraph3;

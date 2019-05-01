@@ -17,3 +17,6 @@
 .video {
   overflow-x: hidden;
 }
+.pictures {
+  z-index: 13;
+}
