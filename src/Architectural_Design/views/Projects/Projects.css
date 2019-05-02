@@ -20,3 +20,6 @@
 .pictures {
   z-index: 13;
 }
+body {
+  background: black;
+}
