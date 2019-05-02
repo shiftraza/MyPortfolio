@@ -14,11 +14,12 @@ export default function Component1() {
             <b>
               Hi! I'm currently a third year Mechanical Engineering student
               studying at the University of Waterloo. I am also looking for my
-              next co-op internship (wink,wink)! I made this website using
-              <b className="special"> HTML</b>, <b>CSS</b> and <b>React JS</b>.
-              You can learn more about my background, sideprojects and past
+              next co-op/internship (wink,wink)! I made this website using
+              <b className="special"> React JS</b>,{" "}
+              <b className="special">HTML</b> and <b className="special">CSS</b>
+              . You can learn more about my background, sideprojects and past
               employment experience by clicking on the respective tabs above.
-              Please feel free to contact at any time.
+              Please feel free to contact me at any time.
               <b className="special">
                 <b className="flashy">Thanks, Enjoy!</b>
               </b>

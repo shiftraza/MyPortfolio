@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Info.css";
 import Slider2 from "../../Body_Main/ImageRouter/Image_Slider2";
 
 const Paragraph2 = props => (

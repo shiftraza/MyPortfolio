@@ -1,11 +1,12 @@
 import SimpleImageSlider from "react-simple-image-slider";
 import React from "react";
 
-class Slider extends React.Component {
+class Slider3 extends React.Component {
   render() {
     const images = [
       {
-        url: "http://i63.tinypic.com/345hdhv.png"
+        url:
+          "https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         url: "http://i65.tinypic.com/2n8n6uv.png"
@@ -35,4 +36,4 @@ class Slider extends React.Component {
   }
 }
 
-export default Slider;
+export default Slider3;

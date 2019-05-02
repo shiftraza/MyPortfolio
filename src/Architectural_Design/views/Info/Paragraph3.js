@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import "./Info.css";
-import picture3 from "../../../images/img/Sunset.jpg";
+import Slider3 from "../../Body_Main/ImageRouter/Image_Slider3";
 
 const Paragraph3 = props => (
   <div className="container">
     <div className="title">{props.header}</div>
     <p className="paragraph">{props.paragraph}</p>
-    <img className="pictures" src={picture3} />
+    <Slider3 />
   </div>
 );
 

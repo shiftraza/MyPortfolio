@@ -1,5 +1,5 @@
 import SimpleImageSlider from "react-simple-image-slider";
-import React, { Component } from "react";
+import React from "react";
 
 class Slider2 extends React.Component {
   render() {

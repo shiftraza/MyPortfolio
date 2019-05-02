@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Info.css";
-import Paragraph from "./Paragraph";
 
 class Info extends Component {
   render() {
