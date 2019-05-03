@@ -22,7 +22,7 @@ class Header extends Component {
               <a href="#/info">Info</a>
             </nav>
             <nav className="contact">
-              <a href="#/about">About</a>
+              <a href="#/about">About Me</a>
             </nav>
           </nav>
         </header>

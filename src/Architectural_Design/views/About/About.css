@@ -1,3 +1,18 @@
-.BodyMain {
-  background: blue;
+a.linkedinlink {
+  color: firebrick;
+  font-size: 20px;
+  font-size-adjust: 20px;
+  text-transform: none;
+}
+a.emaillink {
+  color: firebrick;
+  font-size: 20px;
+  font-size-adjust: 20px;
+  text-transform: none;
+}
+.contactinfo {
+  color: firebrick;
+  position: relative;
+  left: 40%;
+  top: 1cm;
 }

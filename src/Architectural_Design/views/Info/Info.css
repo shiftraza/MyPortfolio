@@ -73,3 +73,34 @@
 .master {
   background: black;
 }
+
+.infocontainer {
+  z-index: 11;
+  opacity: 0.9;
+  position: relative;
+  background: rgb(241, 120, 120);
+}
+.text {
+  margin-left: 27%;
+  margin-right: 10%;
+  margin-top: 1cm;
+  position: relative;
+  float: left;
+  color: yellow;
+  text-decoration: none;
+  display: inline;
+}
+.text2 {
+  position: relative;
+  margin-top: 1cm;
+  float: left;
+  color: yellow;
+  text-decoration: none;
+  display: inline;
+}
+.list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
