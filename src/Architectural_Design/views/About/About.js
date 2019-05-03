@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./About.css";
+import Back from "./Back";
+
 class About extends Component {
   render() {
     return (
       <div>
         <Header />
+        <Back />
         <div className="contactinfo">
           <div className="number">780-880-5666</div>
           <div className="email">
