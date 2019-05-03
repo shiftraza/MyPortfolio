@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Projects.css";
-import Video2 from "./Video";
+import Back from "../About/Back";
 import Paragraph from "../../views/Info/Paragraph";
 import Paragraph2 from "../../views/Info/Paragraph2";
 import Paragraph3 from "../../views/Info/Paragraph3";
@@ -29,6 +29,7 @@ class Projects extends Component {
       <div className="master">
         <div className="main">
           <Header />
+          <Back />
           <div className="container1">
             <div id="test1">
               <Paragraph paragraph={paragraph} header={header} />
@@ -41,12 +42,6 @@ class Projects extends Component {
             </div>
             <div id="test4">
               <Paragraph paragraph={fourthparagraph} header={fourthheader} />
-            </div>
-            <div className="video">
-              <Video2 />
-            </div>
-            <div className="video">
-              <Video2 />
             </div>
           </div>
         </div>
