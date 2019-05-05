@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Slider from "../../Body_Main/ImageRouter/Image_Slider";
+import "./Info.css";
 
 const Paragraph = props => (
   <div className="container">
     <div className="title">{props.header}</div>
     <p className="paragraph">{props.paragraph}</p>
-    <Slider />
+    <div className="testimage">
+      <Slider />
+    </div>
   </div>
 );
 

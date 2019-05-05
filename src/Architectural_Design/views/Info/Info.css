@@ -25,7 +25,7 @@
 }
 
 .paragraph {
-  width: 20cm;
+  width: 60%;
   background-color: cyan;
   float: right;
   margin-right: 10px;
@@ -106,4 +106,12 @@
 }
 .test {
   z-index: 18;
+}
+.pic {
+  display: inline;
+}
+
+.testimage {
+  display: inline;
+  position: relative;
 }

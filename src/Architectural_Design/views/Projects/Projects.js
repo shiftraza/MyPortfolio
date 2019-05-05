@@ -27,23 +27,19 @@ class Projects extends Component {
 
     return (
       <div className="master">
-        <div className="main">
-          <Header />
-          <Back />
-          <div className="container1">
-            <div id="test1">
-              <Paragraph paragraph={paragraph} header={header} />
-            </div>
-            <div id="test2">
-              <Paragraph2 paragraph={secondparagraph} header={secondheader} />
-            </div>
-            <div id="test3">
-              <Paragraph3 paragraph={thirdparagraph} header={thirdheader} />
-            </div>
-            <div id="test4">
-              <Paragraph paragraph={fourthparagraph} header={fourthheader} />
-            </div>
-          </div>
+        <Header />
+        <Back />
+        <div id="test1">
+          <Paragraph paragraph={paragraph} header={header} />
+        </div>
+        <div id="test2">
+          <Paragraph2 paragraph={secondparagraph} header={secondheader} />
+        </div>
+        <div id="test3">
+          <Paragraph3 paragraph={thirdparagraph} header={thirdheader} />
+        </div>
+        <div id="test4">
+          <Paragraph paragraph={fourthparagraph} header={fourthheader} />
         </div>
       </div>
     );
