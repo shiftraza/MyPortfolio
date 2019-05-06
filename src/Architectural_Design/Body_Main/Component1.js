@@ -8,7 +8,6 @@ export default function Component1() {
       to={{ opacity: 1, marginLeft: 0 }}
       config={{ duration: 2000 }}
     >
-
       {props => (
         <div style={props}>
           <div>

@@ -38,15 +38,15 @@
   width: 300px;
   height: 200px;
   float: left;
-  margin-left: 59px;
   z-index: 13;
 }
 
 .title {
   text-indent: 1cm;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 0.5cm;
-  color: green;
+  font-size: 0.75cm;
+  background: rgb(61, 61, 61);
+  color: rgb(0, 140, 255);
 }
 
 #test1 {
