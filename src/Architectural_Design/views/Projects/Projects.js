@@ -5,6 +5,7 @@ import Back from "../About/Back";
 import Paragraph from "../../views/Info/Paragraph";
 import Paragraph2 from "../../views/Info/Paragraph2";
 import Paragraph3 from "../../views/Info/Paragraph3";
+import Paragraph4 from "../../views/Info/Paragraph4";
 import "../Info/Info.css";
 
 class Projects extends Component {
@@ -39,7 +40,7 @@ class Projects extends Component {
           <Paragraph3 paragraph={thirdparagraph} header={thirdheader} />
         </div>
         <div id="test4">
-          <Paragraph paragraph={fourthparagraph} header={fourthheader} />
+          <Paragraph4 paragraph={fourthparagraph} header={fourthheader} />
         </div>
       </div>
     );

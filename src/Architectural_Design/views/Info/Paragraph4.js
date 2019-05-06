@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import Slider2 from "../../Body_Main/ImageRouter/Image_Slider2";
+import Slider4 from "../../Body_Main/ImageRouter/Image_Slider4";
 import "./Info.css";
 import Commandbar from "../../../images/img/commandbar.PNG";
 
-const Paragraph2 = props => (
+const Paragraph4 = props => (
   <div className="container">
     <div className="title">
       {props.header}
       <img className="bar" src={Commandbar} />
     </div>
     <p className="paragraph">{props.paragraph}</p>
-    <Slider2 className="pictures" />
+    <Slider4 />
   </div>
 );
 
-export default Paragraph2;
+export default Paragraph4;
