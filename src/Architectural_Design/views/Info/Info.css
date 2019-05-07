@@ -187,3 +187,37 @@ body {
   width: 100%;
   height: 1cm;
 }
+
+.paragraphwork {
+  width: 57.5%;
+  background-color: lightseagreen;
+  float: right;
+  margin-right: 4%;
+  margin-top: 2.5%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.titlework {
+  text-indent: 1cm;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.75cm;
+  background: rgb(61, 61, 61);
+  color: rgb(0, 140, 255);
+}
+.containerwork {
+  z-index: 11;
+  opacity: 0.9;
+  position: relative;
+  background: rgb(163, 70, 163);
+  width: 75%;
+  height: 360px;
+  left: 15%;
+  margin: 25px;
+  position: absolute;
+  border-radius: 10px;
+}
+.pictureswork {
+  position: relative;
+  top: 40px;
+}
