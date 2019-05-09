@@ -12,7 +12,7 @@ class Projects extends Component {
   render() {
     const paragraph =
       "This project was done to gain a deeper understanding of electrical design as well as PID programming. It involved setting up a PID control Algorithm that would allow this robot to roam freely whilst detecting its surroundings. Once a wall was detected, the robot would turn and follow the wall at a pre-set distance. The PID control ensures that the vehicle adheres to the specified distance. The programming was done using Arduino C code. ";
-    const header = "Autonomous Vehicle Projects";
+    const header = "Autonomous Vehicle";
 
     const secondparagraph =
       "In this project, I worked on creating a 3D model of a V6 Engine. I am very passionate about mechanical engineering design and wanted to improve my 3D drafting skills. In this project, I learned how to use surface modelling as well as better utilize commands such as sweeps, drafts and boundary to enhance my model. Furthermore I was able to test different parts using FEA and Mesh analysis.";
@@ -30,17 +30,19 @@ class Projects extends Component {
       <div className="master">
         <Header />
         <Back />
-        <div id="test1">
-          <Paragraph paragraph={paragraph} header={header} />
-        </div>
-        <div id="test2">
-          <Paragraph2 paragraph={secondparagraph} header={secondheader} />
-        </div>
-        <div id="test3">
-          <Paragraph3 paragraph={thirdparagraph} header={thirdheader} />
-        </div>
-        <div id="test4">
-          <Paragraph4 paragraph={fourthparagraph} header={fourthheader} />
+        <div className="background">
+          <div id="test1">
+            <Paragraph paragraph={paragraph} header={header} />
+          </div>
+          <div id="test2">
+            <Paragraph2 paragraph={secondparagraph} header={secondheader} />
+          </div>
+          <div id="test3">
+            <Paragraph3 paragraph={thirdparagraph} header={thirdheader} />
+          </div>
+          <div id="test4">
+            <Paragraph4 paragraph={fourthparagraph} header={fourthheader} />
+          </div>
         </div>
       </div>
     );
