@@ -18,7 +18,7 @@ class Info extends Component {
         <Back />
         <div className="masterinfo">
           <Rez />
-          <div className="number">780-880-5666</div>
+          <div className="number">780-880-56d66</div>
           <div className="email">
             <a
               className="emaillink"

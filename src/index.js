@@ -9,6 +9,8 @@ import Info from "./Architectural_Design/views/Info/Info";
 import * as serviceWorker from "./serviceWorker";
 import { HashRouter as Router, Route } from "react-router-dom";
 
+import Testfile from "./Architectural_Design/views/TestView/Testfile";
+
 ReactDOM.render(
   <Router>
     <div>
@@ -17,6 +19,7 @@ ReactDOM.render(
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/info" component={Info} />
       <Route exact path="/body" component={Body} />
+      <Route exact path="/test" component={Testfile} />
     </div>
   </Router>,
   document.getElementById("root")
