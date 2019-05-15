@@ -1,6 +1,6 @@
 import React from "react";
 import { Spring } from "react-spring/renderprops";
-
+import "./../views/Info/Info.css";
 export default function Component1() {
   return (
     <Spring

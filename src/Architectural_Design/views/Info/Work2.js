@@ -3,7 +3,7 @@ import WorkSlider from "../../Body_Main/ImageRouter/Image_Slider5";
 import "./Info.css";
 import Commandbar from "../../../images/img/commandbar.PNG";
 
-const Work = props => (
+const Work2 = props => (
   <div className="containerwork">
     <div className="titlework">
       {props.header}
@@ -18,4 +18,4 @@ const Work = props => (
   </div>
 );
 
-export default Work;
+export default Work2;

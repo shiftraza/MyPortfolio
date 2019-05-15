@@ -221,3 +221,19 @@ body {
   position: relative;
   top: 40px;
 }
+.Name {
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  top: 10cm;
+}
+
+#work1 {
+  position: relative;
+  bottom: 0cm;
+  float: top;
+}
+#work2 {
+  position: relative;
+  bottom: -12cm;
+  float: bottom;
+}
