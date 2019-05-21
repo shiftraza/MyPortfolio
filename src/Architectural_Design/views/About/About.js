@@ -21,7 +21,7 @@ class About extends Component {
                   <li>React JS</li>
                   <li>Excel - VBA</li>
                   <li>Soldering and Wood working</li>
-                  <li>Eletrical and hardware tinkering</li>
+                  <li>Electrical and hardware tinkering</li>
                 </ul>
               </div>
             </div>
