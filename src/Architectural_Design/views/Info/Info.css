@@ -48,6 +48,7 @@
   font-size: 0.75cm;
   background: rgb(61, 61, 61);
   color: rgb(0, 140, 255);
+  z-index: 10;
 }
 
 #test1 {
@@ -236,4 +237,32 @@ body {
   position: relative;
   bottom: -12cm;
   float: bottom;
+}
+.git {
+  display: inline;
+  position: relative;
+  left: 20px;
+  z-index: 17;
+  text-transform: none;
+  font-size: 0%;
+}
+.gitimage {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  display: inline;
+  top: 5px;
+}
+
+.github {
+  font-weight: 0.5;
+  font-family: Impact;
+  color: rgb(25, 25, 25);
+  display: inline;
+  position: relative;
+  left: 10px;
+}
+
+.github:hover {
+  color: red;
 }

@@ -8,6 +8,11 @@ const Paragraph4 = props => (
     <div className="title">
       {props.header}
       <img className="bar" src={Commandbar} />
+      <div className="github">
+        <a className="github" href="https://github.com/shiftraza/MyPortfolio">
+          GitHub
+        </a>
+      </div>
     </div>
     <p className="paragraph">{props.paragraph}</p>
     <Slider4 />

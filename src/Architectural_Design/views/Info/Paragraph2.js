@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider2 from "../../Body_Main/ImageRouter/Image_Slider2";
 import "./Info.css";
 import Commandbar from "../../../images/img/commandbar.PNG";
+import GitHubLink from "../../Githublink";
 
 const Paragraph2 = props => (
   <div className="container">

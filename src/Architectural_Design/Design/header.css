@@ -39,13 +39,16 @@
   margin: 30px;
 }
 
-a {
+a.nav {
   color: #bbbdbb;
-  text-decoration: none;
+
   text-transform: uppercase;
 }
-a:hover {
+.Header .nav-bar a.nav:hover {
   color: red;
   font-size: 30px;
   font-size-adjust: 20px;
+}
+a {
+  text-decoration: none;
 }

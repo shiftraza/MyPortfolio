@@ -13,16 +13,25 @@ class Header extends Component {
 
           <nav className="nav-bar">
             <nav className="home">
-              <a href="#/"> Home</a>
+              <a className="nav" href="#/">
+                {" "}
+                Home
+              </a>
             </nav>
             <nav className="project">
-              <a href="#/projects">Projects</a>
+              <a className="nav" href="#/projects">
+                Projects
+              </a>
             </nav>
             <nav className="moreinfo">
-              <a href="#/info">Experience</a>
+              <a className="nav" href="#/info">
+                Experience
+              </a>
             </nav>
             <nav className="contact">
-              <a href="#/about">About Me</a>
+              <a className="nav" href="#/about">
+                About Me
+              </a>
             </nav>
           </nav>
         </header>
