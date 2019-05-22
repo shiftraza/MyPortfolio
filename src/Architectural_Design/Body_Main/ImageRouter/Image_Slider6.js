@@ -2,11 +2,11 @@ import SimpleImageSlider from "react-simple-image-slider";
 import React from "react";
 import "../../views/Info/Info.css";
 
-class Work_Slider extends React.Component {
+class Work_Slider2 extends React.Component {
   render() {
     const images = [
       {
-        url: "http://i68.tinypic.com/i5t085.png"
+        url: "http://i67.tinypic.com/15qp2k4.png"
       }
     ];
 
@@ -25,4 +25,4 @@ class Work_Slider extends React.Component {
   }
 }
 
-export default Work_Slider;
+export default Work_Slider2;

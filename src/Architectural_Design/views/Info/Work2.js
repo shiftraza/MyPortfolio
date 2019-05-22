@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import WorkSlider from "../../Body_Main/ImageRouter/Image_Slider5";
+import WorkSlider2 from "../../Body_Main/ImageRouter/Image_Slider6";
 import "./Info.css";
 import Commandbar from "../../../images/img/commandbar.PNG";
 
@@ -12,7 +12,7 @@ const Work2 = props => (
     <p className="paragraphwork">{props.paragraph}</p>
     <div className="testimage">
       <a className="pictureswork">
-        <WorkSlider />
+        <WorkSlider2 />
       </a>
     </div>
   </div>
