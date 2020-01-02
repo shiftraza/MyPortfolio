@@ -45,12 +45,10 @@
 
 .resume-pdf {
   display: inline;
-  width: auto;
 }
 
 .linkedin-pdf {
   display: inline;
-  width: auto;
 }
 
 .project1 {
@@ -123,4 +121,18 @@
   color: black;
   border-color: black;
   z-index: 33;
+}
+
+@media (max-width : 768px) {
+  .resume-container {
+    margin-bottom: 20px;
+  }
+
+  .linkedin-container {
+    margin-bottom: 20px;
+  }
+
+  .github-container {
+    margin-bottom: 20px;
+  }
 }

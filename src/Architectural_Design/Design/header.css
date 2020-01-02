@@ -2,20 +2,30 @@
   background: #000000;
   height: 95px;
   position: relative;
+  justify-content: left;
 }
 
 .logo {
   width: 200px;
   height: auto;
-  position: absolute;
-  left: 10cm;
+  position: relative;
+  align-items: left;
+  justify-content: left;
   bottom: 0px;
+  margin-left: 12%;
+}
+
+#logo {
+  width: fit-content;
+  display: inline;
 }
 
 .nav-bar {
-  position: absolute;
-  left: 30%;
-  bottom: -2px;
+  width: 100%;
+  display: inline;
+  block-size: auto;
+  position: relative;
+  align-items: center;
   font-size: 17px;
   letter-spacing: 4px;
   text-align: center;
@@ -25,6 +35,7 @@
 .home {
   display: inline;
   margin: 30px;
+  margin-left: 5px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -58,4 +69,10 @@ a.nav {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width : 768px) {
+  .nav-bar {
+    display: none;
+  }
 }
