@@ -61,7 +61,7 @@ a.nav {
 
 .Header .nav-bar a.nav:hover {
   color: red;
-  font-size: 30px;
+  font-size: 22px;
   font-size-adjust: 20px;
 }
 

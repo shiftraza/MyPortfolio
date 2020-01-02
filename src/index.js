@@ -6,10 +6,12 @@ import Projects from "./Architectural_Design/views/Projects/Projects";
 import Home from "./Architectural_Design/views/Home/Home";
 import Body from "./Architectural_Design/Body_Main/Body";
 import Info from "./Architectural_Design/views/Info/Info";
+import Testfile from "./Architectural_Design/views/Projects/Projects_proper";
+
 import * as serviceWorker from "./serviceWorker";
 import { HashRouter as Router, Route } from "react-router-dom";
 
-import Testfile from "./Architectural_Design/views/TestView/Testfile";
+// import Testfile from "./Architectural_Design/views/TestView/Testfile";
 
 ReactDOM.render(
   <Router>

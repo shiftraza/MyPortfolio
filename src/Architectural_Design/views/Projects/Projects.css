@@ -8,12 +8,76 @@
   position: absolute;
   top: 5cm;
 }
+
 .video {
   overflow-x: hidden;
 }
+
 .pictures {
   z-index: 13;
 }
+
 body {
   background: black;
+}
+
+.projects {
+  position: relative;
+  align-content: center;
+  z-index: 0;
+  width: 80%;
+  height: 20%;
+  margin-left: 10%;
+  background-color: white;
+}
+
+.proj1 {
+  margin: 10px;
+  background-color: grey;
+  width: 48%;
+  height: 6cm;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.proj2 {
+  margin: 10px;
+  background-color: aqua;
+  width: 48%;
+  height: 6cm;
+  display: inline;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.proj3 {
+  margin: 10px;
+  background-color: blue;
+  width: 48%;
+  height: 6cm;
+  display: inline;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.proj4 {
+  margin: 10px;
+  background-color: violet;
+  width: 48%;
+  height: 6cm;
+  display: inline;
+  float: right;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.projects :hover {
+  margin: 5px;
 }
