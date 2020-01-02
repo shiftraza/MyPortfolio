@@ -9,15 +9,13 @@ import Component10 from "../Home/project1";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="head">
         <Header />
+        <Back />
         <div id="hero">
           <div id="hero-overlay" />
-          <Body />
-          <Back />
-
-          <Rez />
         </div>
+        <Body />
       </div>
     );
   }

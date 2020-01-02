@@ -249,8 +249,9 @@ body {
 
 .Name_View {
   position: relative;
-  left: 8.35cm;
-  top: 6cm;
+  text-align: center;
+  padding-top: 8%;
+  padding-right: 20%;
   font-family: "Times New Roman", Times, serif;
   font: bold;
   font-stretch: ultra-expanded;

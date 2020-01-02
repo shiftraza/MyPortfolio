@@ -1,5 +1,6 @@
 import React from "react";
 import { Spring } from "react-spring/renderprops";
+import "../Body_Main/body_design.css";
 
 export default function Component1() {
   return (
@@ -11,7 +12,9 @@ export default function Component1() {
       {props => (
         <div style={props}>
           <p className="Intro">
-            <b>Undergraduate Student at the University of Waterloo</b>
+            <b className="subsec">
+              Undergraduate Student at the University of Waterloo
+            </b>
           </p>
         </div>
       )}
