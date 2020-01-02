@@ -11,7 +11,7 @@ export default function Component1() {
       {props => (
         <div style={props}>
           <div>
-            <h1 className="Name">Armghan Haider</h1>
+            <div className="Name_View">Armghan Haider</div>
             <Spring
               from={{ number: 0 }}
               to={{ number: 10 }}

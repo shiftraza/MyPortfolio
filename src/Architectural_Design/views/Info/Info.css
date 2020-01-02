@@ -56,11 +56,13 @@
   bottom: 0cm;
   float: top;
 }
+
 #test2 {
   position: relative;
   bottom: -10cm;
   float: bottom;
 }
+
 #test3 {
   position: relative;
   bottom: -20cm;
@@ -72,6 +74,7 @@
   bottom: -30cm;
   float: bottom;
 }
+
 .master {
   background: black;
 }
@@ -82,6 +85,7 @@
   position: relative;
   background: rgb(241, 120, 120);
 }
+
 .text {
   margin-left: 27%;
   margin-right: 10%;
@@ -92,6 +96,7 @@
   text-decoration: none;
   display: inline;
 }
+
 .text2 {
   position: relative;
   margin-top: 1cm;
@@ -100,12 +105,14 @@
   text-decoration: none;
   display: inline;
 }
+
 .list {
   text-decoration: none;
   list-style: none;
   display: flex;
   flex-direction: column;
 }
+
 .pic {
   display: inline;
 }
@@ -114,6 +121,7 @@
   display: inline;
   position: relative;
 }
+
 .bar {
   display: inline;
   position: relative;
@@ -128,18 +136,21 @@ a.linkedinlink {
   font-size-adjust: 20px;
   text-transform: none;
 }
+
 a.emaillink {
   color: firebrick;
   font-size: 20px;
   font-size-adjust: 20px;
   text-transform: none;
 }
+
 .contactinfo {
   color: firebrick;
   position: relative;
   left: 30%;
   text-align: center;
 }
+
 .email {
   position: relative;
   display: inline;
@@ -148,6 +159,7 @@ a.emaillink {
   font-size: 10px;
   text-align: center;
 }
+
 .number {
   position: relative;
   display: inline;
@@ -158,6 +170,7 @@ a.emaillink {
   font-size: 20px;
   text-align: bottom;
 }
+
 .linkedin {
   position: relative;
   display: inline;
@@ -166,6 +179,7 @@ a.emaillink {
   text-align: center;
   margin-right: 1cm;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -181,6 +195,7 @@ body {
   left: 0;
   z-index: -5;
 }
+
 .masterinfo {
   position: relative;
   top: 20px;
@@ -206,6 +221,7 @@ body {
   background: rgb(61, 61, 61);
   color: rgb(0, 140, 255);
 }
+
 .containerwork {
   z-index: 11;
   opacity: 0.9;
@@ -218,14 +234,31 @@ body {
   position: absolute;
   border-radius: 10px;
 }
+
 .pictureswork {
   position: relative;
   top: 40px;
 }
+
 .Name {
   font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 4cm;
+  bottom: 10cm;
+}
+
+.Name_View {
   position: relative;
-  top: 10cm;
+  left: 8.35cm;
+  top: 6cm;
+  font-family: "Times New Roman", Times, serif;
+  font: bold;
+  font-stretch: ultra-expanded;
+  font: bolder;
+  font-size: 400%;
+  margin-bottom: 0px;
+  color: white;
+
 }
 
 #work1 {
@@ -233,11 +266,13 @@ body {
   bottom: 0cm;
   float: top;
 }
+
 #work2 {
   position: relative;
   bottom: -12cm;
   float: bottom;
 }
+
 .git {
   display: inline;
   position: relative;
@@ -246,6 +281,7 @@ body {
   text-transform: none;
   font-size: 0%;
 }
+
 .gitimage {
   position: relative;
   width: 200px;

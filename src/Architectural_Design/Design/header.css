@@ -3,6 +3,7 @@
   height: 95px;
   position: relative;
 }
+
 .logo {
   width: 200px;
   height: auto;
@@ -18,6 +19,7 @@
   font-size: 17px;
   letter-spacing: 4px;
   text-align: center;
+  z-index: 18;
 }
 
 .home {
@@ -26,14 +28,17 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .contact {
   display: inline;
   margin: 30px;
 }
+
 .project {
   display: inline;
   margin: 30px;
 }
+
 .moreinfo {
   display: inline;
   margin: 30px;
@@ -44,11 +49,13 @@ a.nav {
 
   text-transform: uppercase;
 }
+
 .Header .nav-bar a.nav:hover {
   color: red;
   font-size: 30px;
   font-size-adjust: 20px;
 }
+
 a {
   text-decoration: none;
 }
