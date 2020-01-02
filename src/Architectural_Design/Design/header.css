@@ -16,12 +16,10 @@
 }
 
 #logo {
-  width: fit-content;
   display: inline;
 }
 
 .nav-bar {
-  width: 100%;
   display: inline;
   block-size: auto;
   position: relative;

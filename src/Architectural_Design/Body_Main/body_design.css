@@ -64,3 +64,27 @@ b {
 .special {
   font-weight: 1000;
 }
+
+.Name_View {
+  position: relative;
+  text-align: center;
+  padding-top: 8%;
+  padding-right: 20%;
+  font-family: "Times New Roman", Times, serif;
+  font: bold;
+  font-stretch: ultra-expanded;
+  font: bolder;
+  font-size: 400%;
+  margin-bottom: 0px;
+  color: white;
+
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin-top: -200%;
+    position: relative;
+    float: top;
+
+  }
+}
