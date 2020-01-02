@@ -53,6 +53,12 @@
   width: auto;
 }
 
+.project1 {
+  position: relative;
+  color: red;
+
+}
+
 .linkedin-container {
   color: whitesmoke;
   width: auto;

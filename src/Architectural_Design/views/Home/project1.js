@@ -1,9 +1,6 @@
 import React from "react";
+import "../Home/Home.css";
 
-export default function Component10() {
-  return (
-    <div className="project1">
-      <h1>HELLO</h1>
-    </div>
-  );
+export default function Project1() {
+  return <div className="project1"> hellohellohellohellohellohellohello</div>;
 }
