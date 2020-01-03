@@ -1,14 +1,37 @@
 import React, { Component } from "react";
-import Back from "../About/Back";
-import "./Testfile.css";
+import SideDrawer from "../../Design/sidebar_components/SideDrawer";
+import Backdrop from "../../Design/sidebar_components/Backdrop";
+import Header from "../../Design/header";
+
 class Testfile extends Component {
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
+
   render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
     return (
-      <div>
-        <div>
-          <Back />
-          hello
-        </div>
+      <div style={{ height: "100%" }}>
+        <Header drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+        <main style={{ marginTop: "64px" }}>
+          <p>This is the page content!</p>
+        </main>
       </div>
     );
   }

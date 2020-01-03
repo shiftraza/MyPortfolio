@@ -2,12 +2,34 @@ import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Projects.css";
 import Back from "../About/Back";
+import SideDrawer from "../../../Architectural_Design/Design/sidebar_components/SideDrawer";
+import Backdrop from "../../Design/sidebar_components/Backdrop";
 
 class Projects2 extends Component {
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
+
   render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
     return (
       <div className="head">
-        <Header />
+        <Header drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
         <Back />
         <div className="projects">
           <a className="proj1" href="#/AGV"></a>

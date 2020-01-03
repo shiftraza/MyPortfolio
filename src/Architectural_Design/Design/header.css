@@ -30,6 +30,15 @@
   z-index: 18;
 }
 
+.button1 {
+  position: absolute;
+  left: 5%;
+  padding-top: 3%;
+  height: 1cm;
+  width: 1cm;
+  margin: 0px;
+}
+
 .home {
   display: inline;
   margin: 30px;

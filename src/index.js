@@ -17,6 +17,7 @@ import crane from "./Architectural_Design/views/Projects/Proj_dets/crane";
 import V6 from "./Architectural_Design/views/Projects/Proj_dets/V6";
 import airplane from "./Architectural_Design/views/Projects/Proj_dets/airplane";
 import gripper from "./Architectural_Design/views/Projects/Proj_dets/gripper";
+import App from "./Architectural_Design/views/TestView/Testfile";
 import * as serviceWorker from "./serviceWorker";
 import { HashRouter as Router, Route } from "react-router-dom";
 
@@ -39,6 +40,7 @@ ReactDOM.render(
       <Route exact path="/gripper" component={gripper} />
       <Route exact path="/airplane" component={airplane} />
       <Route exact path="/test" component={Testfile} />
+      <Route exact path="/App" component={App} />
     </div>
   </Router>,
   document.getElementById("root")

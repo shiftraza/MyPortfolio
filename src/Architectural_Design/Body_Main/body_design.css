@@ -5,6 +5,8 @@
 
 .App {
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin-top: -50%;
 }
 
@@ -82,9 +84,13 @@ b {
 
 @media (max-width: 768px) {
   .App {
-    margin-top: -200%;
     position: relative;
-    float: top;
+    position: absolute;
+    top: 50%;
 
+  }
+
+  .particles {
+    display: none;
   }
 }
