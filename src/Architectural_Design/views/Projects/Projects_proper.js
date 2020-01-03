@@ -14,6 +14,10 @@ class Projects extends Component {
           <div className="proj2"></div>
           <div className="proj3"></div>
           <div className="proj4"></div>
+          <div className="proj5"></div>
+          <div className="proj6"></div>
+          <div className="proj7"></div>
+          <div className="proj8"></div>
         </div>
       </div>
     );
