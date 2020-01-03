@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Design/header";
 import "./Projects.css";
 import Back from "../About/Back";
+import Sunset from "../../../images/img/Sunset.jpg";
 
 class Projects2 extends Component {
   render() {
@@ -10,14 +11,14 @@ class Projects2 extends Component {
         <Header />
         <Back />
         <div className="projects">
-          <div className="proj1"></div>
-          <div className="proj2"></div>
-          <div className="proj3"></div>
-          <div className="proj4"></div>
-          <div className="proj5"></div>
-          <div className="proj6"></div>
-          <div className="proj7"></div>
-          <div className="proj8"></div>
+          <a className="proj1" href="#/"></a>
+          <a className="proj2" href="#/"></a>
+          <a className="proj3" href="#/"></a>
+          <a className="proj4" href="#/"></a>
+          <a className="proj5" href="#/"></a>
+          <a className="proj6" href="#/"></a>
+          <a className="proj7" href="#/"></a>
+          <a className="proj8" href="#/"></a>
         </div>
       </div>
     );
