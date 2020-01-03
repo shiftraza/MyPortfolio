@@ -6,6 +6,7 @@ import Projects from "./Architectural_Design/views/Projects/Projects";
 import Home from "./Architectural_Design/views/Home/Home";
 import Body from "./Architectural_Design/Body_Main/Body";
 import Info from "./Architectural_Design/views/Info/Info";
+import Projects2 from "./Architectural_Design/views/Projects/Projects_proper";
 import Testfile from "./Architectural_Design/views/Projects/Projects_proper";
 
 import * as serviceWorker from "./serviceWorker";
@@ -18,7 +19,7 @@ ReactDOM.render(
     <div>
       <Route path="/about" component={About} />
       <Route exact path="/" component={Home} />
-      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/projects" component={Projects2} />
       <Route exact path="/info" component={Info} />
       <Route exact path="/body" component={Body} />
       <Route exact path="/test" component={Testfile} />

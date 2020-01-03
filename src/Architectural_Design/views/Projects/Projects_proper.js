@@ -3,7 +3,7 @@ import Header from "../../Design/header";
 import "./Projects.css";
 import Back from "../About/Back";
 
-class Projects extends Component {
+class Projects2 extends Component {
   render() {
     return (
       <div className="head">
@@ -24,4 +24,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Projects2;
