@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import SideDrawer from "../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../Design/sidebar_components/Backdrop";
 import Header from "../../Design/header";
-
+import Toolbar from "../../../Architectural_Design/Design/sidebar_components/Toolbar";
 class Testfile extends Component {
   state = {
     sideDrawerOpen: false
@@ -26,7 +26,7 @@ class Testfile extends Component {
     }
     return (
       <div style={{ height: "100%" }}>
-        <Header drawerClickHandler={this.drawerToggleClickHandler} />
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <main style={{ marginTop: "64px" }}>

@@ -82,4 +82,23 @@ a {
   .nav-bar {
     display: none;
   }
+
+  .button1 {
+    position: absolute;
+    left: 50%;
+    padding-top: 10%;
+    height: 1cm;
+    width: 1cm;
+    z-index: 18;
+  }
+
+  #logo {
+    margin-left: -10%;
+  }
+}
+
+@media (min-width: 769px) {
+  .button1 {
+    display: none;
+  }
 }
