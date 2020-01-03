@@ -1,7 +1,6 @@
 .head1 {
     background-color: grey;
     width: 90%;
-    height: 100%;
     position: absolute;
     margin-left: 5%;
 
@@ -19,7 +18,6 @@
     height: 30%;
 }
 
-.all_info {}
 
 .description {
     margin-left: 5%;
@@ -30,6 +28,41 @@
 .project_ {
     font-family: 'Times New Roman';
     font-size: 300%;
+    margin-left: 5%;
+}
+
+.second_paragraph {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    overflow-wrap: break-word;
+}
+
+.pic_container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.contraint_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.contraint {
+    width: 30%;
+    overflow-wrap: break-word;
+    margin-right: 3%;
+}
+
+.pic {
+    width: 33.33%;
+    height: 30%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
 
 }
 
@@ -37,7 +70,8 @@
 
 
     .all_info {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .content {
@@ -57,5 +91,26 @@
     .project_ {
         font-size: 155%;
         margin-left: 3%;
+    }
+
+    .pic {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin-top: 2%;
+    }
+
+
+    .pic_container {
+        flex-direction: column;
+    }
+
+    .contraint_container {
+        flex-direction: column;
+    }
+
+    .contraint {
+        width: 100%;
+        height: 100%;
     }
 }
