@@ -1,0 +1,61 @@
+.head1 {
+    background-color: grey;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    margin-left: 5%;
+
+}
+
+.content {
+    overflow-wrap: break-word;
+    display: flex;
+}
+
+.pic1 {
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 30%;
+}
+
+.all_info {}
+
+.description {
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 43%;
+}
+
+.project_ {
+    font-family: 'Times New Roman';
+    font-size: 300%;
+
+}
+
+@media (max-width:768px) {
+
+
+    .all_info {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .description {
+        width: 90%;
+    }
+
+    .pic1 {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .project_ {
+        font-size: 155%;
+        margin-left: 3%;
+    }
+}
