@@ -2,12 +2,34 @@ import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../XP_dets/css_XP.css";
 import Sunset from "../../../../images/img/Sunset.jpg";
+import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
+import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
 class Toyota extends Component {
+  state = {
+    sideDrawerOpen: false
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
+
   render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
     return (
       <div className="head1">
-        <Header />
+        <Header drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
         <div className="all_info">
           <h1 className="experience_">Toyota</h1>
           <div className="content">
