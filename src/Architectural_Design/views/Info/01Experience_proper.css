@@ -1,0 +1,210 @@
+.wrapper {
+  z-index: 0;
+}
+
+.MainParagraph {
+  z-index: 5;
+  color: red;
+  position: absolute;
+  top: 5cm;
+}
+
+.video {
+  overflow-x: hidden;
+}
+
+.pictures {
+  z-index: 13;
+}
+
+body {
+  background: black;
+}
+
+.experience {
+  position: relative;
+  align-content: center;
+  z-index: 0;
+  width: 80%;
+  height: 85cm;
+  margin-left: 10%;
+  background-color: none;
+}
+
+
+.XP1 {
+  margin: 7px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP2 {
+  margin: 7.6px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP3 {
+  margin: 7px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP4 {
+  margin: 7.6px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP5 {
+  margin: 7.6px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP6 {
+  margin: 7.6px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP7 {
+  margin: 7.6px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+.XP8 {
+  margin: 7.6px;
+  background-color: grey;
+  width: 48%;
+  height: 8%;
+  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../images/img/Sunset.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  .XP1 {
+    width: 92%;
+    height: 10cm;
+    background-size: cover;
+  }
+
+  .XP2 {
+    width: 92%;
+    height: 10cm;
+  }
+
+  .XP3 {
+    width: 92%;
+    height: 10cm;
+  }
+
+  .XP4 {
+    width: 92%;
+    height: 10cm;
+  }
+
+  .XP5 {
+    width: 92%;
+    height: 10cm;
+    background-size: cover;
+  }
+
+  .XP6 {
+    width: 92%;
+    height: 10cm;
+  }
+
+  .XP7 {
+    width: 92%;
+    height: 10cm;
+  }
+
+  .XP8 {
+    width: 92%;
+    height: 10cm;
+  }
+}
+
+.XP1:hover {
+  border-style: solid;
+  border-color: crimson;
+  margin: 0px;
+}
+
+.XP2:hover {
+  border-style: solid;
+  border-color: crimson;
+}
+
+.XP3:hover {
+  border-style: solid;
+  border-color: crimson;
+  margin: 0px;
+}
+
+.XP4:hover {
+  border-style: solid;
+  border-color: crimson;
+
+}
+
+.XP5:hover {
+  border-style: solid;
+  border-color: crimson;
+  margin: 0px;
+}
+
+.XP6:hover {
+  border-style: solid;
+  border-color: crimson;
+}
+
+.XP7:hover {
+  border-style: solid;
+  border-color: crimson;
+  margin: 0px;
+}
+
+.XP8:hover {
+  border-style: solid;
+  border-color: crimson;
+}
