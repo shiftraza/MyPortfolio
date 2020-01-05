@@ -34,7 +34,16 @@ class cart extends Component {
           <h1 className="project_">Transportation Cart</h1>
           <div className="content">
             <p className="description">
-              blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              At this manufacturing facility, there was a need to transport
+              sensitive parts throughout the plant. The painted aluminum parts
+              were prone to scratching which resulted in QC issues. I was tasked
+              to design a cart capable of transporting aluminum cladding of
+              different sizes through multiple different processes throughout
+              the whole facility. The finalized design would replace the aging
+              transports throughout the shop. 20 units were produced and due to
+              the customizable design, were easy to use produce in a variety of
+              different sizes to accommodate even more parts. Each cart cost a
+              total of 1500 dollars.
             </p>
             <img className="pic1" src={Sunset} />
           </div>

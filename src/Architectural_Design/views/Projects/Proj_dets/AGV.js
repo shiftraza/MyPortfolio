@@ -77,7 +77,7 @@ class AGV extends Component {
               The AGV concept effectively avoided obstacles and was an overall
               success. The vehicle could effectively avoid obstacles within a
               180-degree radius at the front and then monitor the obstacle from
-              the side sensor to prevent collisions.
+              the right hand side.
             </div>
           </div>
           <div className="pic_container">
