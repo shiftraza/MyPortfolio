@@ -1,9 +1,13 @@
 .head1 {
-    background-color: grey;
+    background-color: whitesmoke;
     width: 90%;
     position: absolute;
     margin-left: 5%;
 
+}
+
+.all_info {
+    background-color: white;
 }
 
 .content {
