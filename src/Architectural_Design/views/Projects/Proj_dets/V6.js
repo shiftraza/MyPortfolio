@@ -47,18 +47,18 @@ class V6 extends Component {
             <img className="pic" src={Sunset} />
           </div>
           <div className="contraint_container">
-            <p className="contraint">
+            <div className="contraint">
               <h1>Purpose</h1>
               123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-            </p>
-            <p className="contraint">
+            </div>
+            <div className="contraint">
               <h1>Approach</h1>
               123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-            </p>
-            <p className="contraint">
+            </div>
+            <div className="contraint">
               <h1>Results</h1>
               123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-            </p>
+            </div>
           </div>
           <div className="pic_container">
             <img className="pic" src={Sunset} />
