@@ -43,12 +43,15 @@ class cart extends Component {
               transports throughout the shop. 20 units were produced and due to
               the customizable design, were easy to use produce in a variety of
               different sizes to accommodate even more parts. Each cart cost a
-              total of 1500 dollars.
+              total of 1500 dollars to manufacture, giving a total project cost
+              of $30,000.
             </p>
             <img className="pic1" src={Sunset} />
           </div>
           <p className="second_paragraph">
-            blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+            The carts were manufactured using standard steel. The cart was
+            tested using FEA to ensure capable weight carrying capacity. It was
+            then tested using a 100KG weight to ensure safety compliance.
           </p>
           <div className="pic_container">
             <img className="pic" src={Sunset} />
@@ -58,15 +61,21 @@ class cart extends Component {
           <div className="contraint_container">
             <div className="contraint">
               <h1>Purpose</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              The purpose of this cart was to transport large pieces of aluminum
+              cladding through-out the manufacturing facilitiy, quickly and
+              efficiently.
             </div>
             <div className="contraint">
               <h1>Approach</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              An adjustabe design was choosen as per stake-holder
+              recommendations. The cart would need to be able to carry parts of
+              varing shapes and sizes throughout its work cycle.
             </div>
             <div className="contraint">
               <h1>Results</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              The prototype manufactured met its required function. Small tweeks
+              were made to the final design to make the cart more robust and
+              structurally sound.
             </div>
           </div>
           <div className="pic_container">
