@@ -39,8 +39,7 @@ body {
   height: 8%;
   float: left;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../images/img/Sunset.jpg");
-  background-size: cover;
+    url("../../../images//Website_pictures/Picture16.png");
 }
 
 .proj2 {
