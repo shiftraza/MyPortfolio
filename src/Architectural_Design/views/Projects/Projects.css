@@ -31,7 +31,6 @@ body {
   background-color: none;
 }
 
-
 .proj1 {
   margin: 7px;
   background-color: grey;
@@ -40,6 +39,7 @@ body {
   float: left;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../../images//Website_pictures/Picture16.png");
+  background-size: 100% 100%;
 }
 
 .proj2 {
@@ -183,7 +183,6 @@ body {
 .proj4:hover {
   border-style: solid;
   border-color: crimson;
-
 }
 
 .proj5:hover {

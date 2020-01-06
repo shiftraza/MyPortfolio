@@ -32,7 +32,9 @@ class Projects2 extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         <Back />
         <div className="projects">
-          <a className="proj1" href="#/AGV"></a>
+          <a className="proj1" href="#/AGV">
+            <div className="pic123"></div>
+          </a>
           <a className="proj2" href="#/gripper"></a>
           <a className="proj3" href="#/drivechain"></a>
           <a className="proj4" href="#/airplane"></a>
