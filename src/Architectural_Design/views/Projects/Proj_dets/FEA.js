@@ -33,14 +33,10 @@ class FEA extends Component {
         <div className="all_info">
           <h1 className="project_">FEA - TBD</h1>
           <div className="content">
-            <p className="description">
-              blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-            </p>
+            <p className="description">Coming Soon!</p>
             <img className="pic1" src={Sunset} />
           </div>
-          <p className="second_paragraph">
-            blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-          </p>
+          <p className="second_paragraph">Coming Soon! </p>
           <div className="pic_container">
             <img className="pic" src={Sunset} />
             <img className="pic" src={Sunset} />
@@ -49,15 +45,15 @@ class FEA extends Component {
           <div className="contraint_container">
             <p className="contraint">
               <h1>Purpose</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              Coming Soon!{" "}
             </p>
             <p className="contraint">
               <h1>Approach</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              Coming Soon!{" "}
             </p>
             <p className="contraint">
               <h1>Results</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              Coming Soon!{" "}
             </p>
           </div>
           <div className="pic_container">
