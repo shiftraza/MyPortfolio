@@ -34,12 +34,33 @@ class Toyota extends Component {
           <h1 className="experience_">Toyota</h1>
           <div className="content">
             <p className="description">
-              blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              Toyota Motors is one of the world's leading car manufacturing
+              company. The ultimate goal and vision for Toyota is to lead the
+              way to the future of mobility, enriching lives around the world
+              with the safest and most responsible ways of moving people. Thus
+              to accomplish this, Toyota expects a great deal personal
+              commitment and vigor from its employees.
             </p>
             <img className="pic1" src={Sunset} />
           </div>
           <p className="second_paragraph">
-            blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+            During my work term at Toyota, I was brought on to mainly assist
+            with Project Management activities involving new equipment
+            installation and downtime reduction of the shop.
+            <li>
+              Designed and integrated an automated system to detect defects
+              occuring on the Hood hemming line process of the shop. This
+              process improvement saved $40,000 in scrapped part costs and labor
+              on an annual basis.
+            </li>
+            <li>
+              Utilized SolidWorks Sheetmetal design to create fixtures for
+              multiple new equipment.
+            </li>
+            This involved doing FEA analysis on bolted fixtures which seem to be
+            breaking down over extended period of time. Furthermore, I developed
+            a checking system which utilized proximity sensor to detect the
+            defect on the part. This{" "}
           </p>
           <div className="pic_container">
             <img className="pic" src={Sunset} />
