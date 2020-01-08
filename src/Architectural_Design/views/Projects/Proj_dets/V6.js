@@ -57,18 +57,25 @@ class V6 extends Component {
           <div className="contraint_container">
             <div className="contraint">
               <h1>Purpose</h1>
-              The purpose of designing a V6 Engine was to learn more about the
-              mechanisms involve in engine design as well as improve modelling
-              skills on Solidworks.{" "}
+              <div className="purpose">
+                The purpose of designing a V6 Engine was to learn more about the
+                mechanisms involve in engine design as well as improve modelling
+                skills on Solidworks.{" "}
+              </div>
             </div>
             <div className="contraint">
-              <h1>Approach</h1>I designned all parts through online research and
-              vigorous search for part specs and layout.{" "}
+              <h1>Approach</h1>
+              <div className="purpose">
+                I designned all parts through online research and vigorous
+                search for part specs and layout.{" "}
+              </div>
             </div>
             <div className="contraint">
               <h1>Results</h1>
-              The engine and its interacting components worked well together
-              similar to how they would in real-life.{" "}
+              <div className="purpose">
+                The engine and its interacting components worked well together
+                similar to how they would in real-life.{" "}
+              </div>
             </div>
           </div>
           <div className="pic_container">

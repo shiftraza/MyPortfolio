@@ -119,46 +119,59 @@ body {
 }
 
 @media (max-width: 1200px) {
+
   .proj1 {
-    width: 92%;
-    height: 10cm;
+    width: 100%;
+    height: 6cm;
     background-size: cover;
+    margin-left: 0%;
+  }
+
+  .pic_1 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_2 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_3 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_4 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_5 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_6 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_7 {
+    margin-left: 0%;
+    background-size: 100% 100%;
+  }
+
+  .pic_8 {
+    margin-left: 0%;
+    background-size: 100% 100%;
   }
 
   .proj2 {
-    width: 92%;
-    height: 10cm;
-  }
-
-  .proj3 {
-    width: 92%;
-    height: 10cm;
-  }
-
-  .proj4 {
-    width: 92%;
-    height: 10cm;
-  }
-
-  .proj5 {
-    width: 92%;
-    height: 10cm;
+    width: 100%;
+    height: 6cm;
     background-size: cover;
-  }
-
-  .proj6 {
-    width: 92%;
-    height: 10cm;
-  }
-
-  .proj7 {
-    width: 92%;
-    height: 10cm;
-  }
-
-  .proj8 {
-    width: 92%;
-    height: 10cm;
+    margin-left: 0%;
   }
 }
 

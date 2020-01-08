@@ -45,15 +45,15 @@ class FEA extends Component {
           <div className="contraint_container">
             <p className="contraint">
               <h1>Purpose</h1>
-              Coming Soon!{" "}
+              <div className="purpose">Coming Soon! </div>
             </p>
             <p className="contraint">
               <h1>Approach</h1>
-              Coming Soon!{" "}
+              <div className="purpose">Coming Soon! </div>
             </p>
             <p className="contraint">
               <h1>Results</h1>
-              Coming Soon!{" "}
+              <div className="purpose">Coming Soon! </div>
             </p>
           </div>
           <div className="pic_container">

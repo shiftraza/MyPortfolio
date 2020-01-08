@@ -3,12 +3,7 @@
     width: 90%;
     position: absolute;
     margin-left: 5%;
-
-}
-
-.all_info {
-    background-color: black;
-    color: white;
+    overflow-wrap: break-word;
 }
 
 .content {
@@ -28,6 +23,7 @@
     margin-left: 5%;
     margin-right: 2%;
     width: 43%;
+    overflow-wrap: break-word;
 }
 
 .project_ {
@@ -50,10 +46,10 @@
 }
 
 .contraint_container {
-    width: 100%;
+    width: 99%;
     height: 100%;
     display: flex;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .contraint {
@@ -72,11 +68,16 @@
 }
 
 @media (max-width:768px) {
+    .purpose {
+        width: 95%;
+        margin-left: 1%;
+        text-align: justify;
+    }
 
-
-    .all_info {
-        width: 90%;
-        margin-left: 5%;
+    .head1 {
+        width: 100%;
+        position: absolute;
+        margin-left: 0%;
     }
 
     .content {
@@ -84,7 +85,9 @@
     }
 
     .description {
-        width: 90%;
+        width: 99%;
+        margin-left: 1%;
+        text-align: justify;
     }
 
     .pic1 {
@@ -99,7 +102,7 @@
     }
 
     .pic {
-        width: 100%;
+        width: 99%;
         height: 100%;
         padding: 0px;
         margin-top: 2%;
@@ -115,7 +118,8 @@
     }
 
     .contraint {
-        width: 100%;
+        overflow-wrap: break-word;
+        width: 95%;
         height: 100%;
     }
 }

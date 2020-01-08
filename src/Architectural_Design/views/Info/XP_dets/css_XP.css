@@ -68,12 +68,6 @@
 
 @media (max-width:768px) {
 
-
-    .all_info {
-        width: 90%;
-        margin-left: 5%;
-    }
-
     .content {
         flex-direction: column;
     }

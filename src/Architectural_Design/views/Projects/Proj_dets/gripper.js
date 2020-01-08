@@ -65,22 +65,28 @@ class gripper extends Component {
           <div className="contraint_container">
             <div className="contraint">
               <h1>Purpose</h1>
-              THe purpose of this project was to make an inefficient process
-              more efficient by making a design improvement.
+              <div className="purpose">
+                THe purpose of this project was to make an inefficient process
+                more efficient by making a design improvement.
+              </div>
             </div>
             <div className="contraint">
               <h1>Approach</h1>
-              The addition of a manual lifter with a custom designed gripper arm
-              would increase the speed at which spindle reinstallation can take
-              place. This is the significant downtime in this process and thus
-              would make the biggest impact on process time imporovement.
+              <div className="purpose">
+                The addition of a manual lifter with a custom designed gripper
+                arm would increase the speed at which spindle reinstallation can
+                take place. This is the significant downtime in this process and
+                thus would make the biggest impact on process time imporovement.
+              </div>
             </div>
             <div className="contraint">
               <h1>Results</h1>
-              The project was 100% complete and the results completely fulfilled
-              the functional requirements. Overall the project was complete in
-              the required time interval and thus meet the criteria given by
-              stake-holders.
+              <div className="purpose">
+                The project was 100% complete and the results completely
+                fulfilled the functional requirements. Overall the project was
+                complete in the required time interval and thus meet the
+                criteria given by stake-holders.
+              </div>
             </div>
           </div>
           <div className="pic_container">
