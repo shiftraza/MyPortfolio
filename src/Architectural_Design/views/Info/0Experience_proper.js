@@ -32,10 +32,19 @@ class Experience extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         <Back />
         <div className="experience">
-          <a className="XP1" href="#/Toyota"></a>
-          <a className="XP2" href="#/Shoplogix"></a>
-          <a className="XP3" href="#/Andersen"></a>
-          <a className="XP4" href="#/Nestle"></a>
+          <a className="XP1" href="#/Toyota">
+            <div className="logo_1"></div>
+          </a>
+          <a className="XP2" href="#/Shoplogix">
+            {" "}
+            <div className="logo_2"></div>
+          </a>
+          <a className="XP1" href="#/Andersen">
+            <div className="logo_3"></div>
+          </a>
+          <a className="XP2" href="#/Nestle">
+            <div className="logo_4"></div>
+          </a>
         </div>
       </div>
     );
