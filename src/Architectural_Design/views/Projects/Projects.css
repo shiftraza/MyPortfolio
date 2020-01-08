@@ -28,6 +28,7 @@ body {
   width: 80%;
   height: 85cm;
   margin-left: 10%;
+  margin-top: 5%;
   background-color: none;
 }
 
@@ -37,6 +38,7 @@ body {
   height: 10%;
   float: left;
 }
+
 .pic_1 {
   margin-left: 10%;
   background: url("../../../images//Website_pictures/Picture19.png");
@@ -45,12 +47,14 @@ body {
   height: 100%;
   background-repeat: no-repeat;
 }
+
 .proj2 {
   margin: 7.6px;
   width: 48%;
   height: 10%;
   float: left;
 }
+
 .pic_2 {
   margin-left: 10%;
   background: url("../../../images//Website_pictures/Picture2.png");
