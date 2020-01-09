@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
-import Sunset from "../../../../images/img/Sunset.jpg";
+import gripper_pic from "../../../../images/Website_pictures/Picture1.png";
+import gripper_pic1 from "../../../../images/Website_pictures/manipulator.jpg";
+import gripper_pic2 from "../../../../images/Website_pictures/Picture2.png";
+import gripper_pic3 from "../../../../images/Website_pictures/Picture3.png";
+
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -49,7 +53,7 @@ class gripper extends Component {
               resulting in 3.5% overall increase in production capablity of the
               entire facility.
             </p>
-            <img className="pic1" src={Sunset} />
+            <img className="gripper_1" src={gripper_pic} />
           </div>
           <p className="second_paragraph">
             The design had a factor of safety of 3.33. This was further tested
@@ -58,15 +62,15 @@ class gripper extends Component {
             operation.
           </p>
           <div className="pic_container">
-            <img className="pic" src={Sunset} />
-            <img className="pic" src={Sunset} />
-            <img className="pic" src={Sunset} />
+            <img className="pic" src={gripper_pic1} />
+            <img className="pic" src={gripper_pic2} />
+            <img className="pic" src={gripper_pic3} />
           </div>
           <div className="contraint_container">
             <div className="contraint">
               <h1>Purpose</h1>
               <div className="purpose">
-                THe purpose of this project was to make an inefficient process
+                The purpose of this project was to make an inefficient process
                 more efficient by making a design improvement.
               </div>
             </div>
@@ -88,11 +92,6 @@ class gripper extends Component {
                 criteria given by stake-holders.
               </div>
             </div>
-          </div>
-          <div className="pic_container">
-            <img className="pic" src={Sunset} />
-            <img className="pic" src={Sunset} />
-            <img className="pic" src={Sunset} />
           </div>
         </div>
       </div>

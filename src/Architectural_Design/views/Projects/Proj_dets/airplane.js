@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
-import Sunset from "../../../../images/img/Sunset.jpg";
+import airplane_pic from "../../../../images/Website_pictures/Picture22.png";
+import airplane_pic1 from "../../../../images/Website_pictures/Picture21.png";
+import airplane_pic2 from "../../../../images/Website_pictures/Picture21.png";
+import airplane_pic3 from "../../../../images/Website_pictures/Picture21.png";
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -47,7 +50,7 @@ class airplane extends Component {
             properties. I also wanted to design a landing gear capable of
             absorbing most of the impact upon landing.
           </p>
-          <img className="pic1" src={Sunset} />
+          <img className="airplane_1" src={airplane_pic} />
         </div>
         <p className="second_paragraph">
           For this project, I utilized a 1000KV Brushless motor. This motor
@@ -57,9 +60,9 @@ class airplane extends Component {
           atleast 30mph neccesary for take-off on a 15 meter runway.
         </p>
         <div className="pic_container">
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
+          <img className="pic" src={airplane_pic} />
+          <img className="pic" src={airplane_pic} />
+          <img className="pic" src={airplane_pic} />
         </div>
         <div className="contraint_container">
           <div className="contraint">
@@ -88,9 +91,9 @@ class airplane extends Component {
           </div>
         </div>
         <div className="pic_container">
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
+          <img className="pic" src={airplane_pic} />
+          <img className="pic" src={airplane_pic} />
+          <img className="pic" src={airplane_pic} />
         </div>
       </div>
     );
