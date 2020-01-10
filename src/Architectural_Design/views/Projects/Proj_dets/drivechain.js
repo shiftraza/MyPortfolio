@@ -58,22 +58,22 @@ class drivechain extends Component {
           <img className="pic" src={Sunset} />
         </div>
         <div className="contraint_container">
-          <p className="contraint">
+          <div className="contraint">
             <h1>Purpose</h1>
             <div className="purpose">
               The purpose of this project was to prevent excessive wear and tear
               on the wheel and axle of AGV.
             </div>
-          </p>
-          <p className="contraint">
+          </div>
+          <div className="contraint">
             <h1>Approach</h1>
             <div className="purpose">
               A simple open differential was utilized. This would allow for AGV
               wheels to turn indepentently from each other thus limiting the
               wear and tear on each axle.
             </div>
-          </p>
-          <p className="contraint">
+          </div>
+          <div className="contraint">
             <h1>Results</h1>
             <div className="purpose">
               This project is 95% complete. The 3D printed parts successfully
@@ -82,7 +82,7 @@ class drivechain extends Component {
               contruction is made of PC(plastic), some wear and tear is still
               going to occur due to the nature of the material.
             </div>
-          </p>
+          </div>
         </div>
         <div className="pic_container">
           <img className="pic" src={Sunset} />

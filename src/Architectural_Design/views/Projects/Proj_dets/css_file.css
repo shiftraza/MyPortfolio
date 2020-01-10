@@ -79,11 +79,12 @@ p {
 
 .pic {
     width: 33.33%;
-    height: 10cm;
+    height: 11cm;
     flex-wrap: wrap;
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
 
 @media (max-width:768px) {
     .purpose {

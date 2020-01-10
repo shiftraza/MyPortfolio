@@ -86,10 +86,10 @@ class gripper extends Component {
             <div className="contraint">
               <h1>Results</h1>
               <div className="purpose">
-                The project was 100% complete and the results completely
-                fulfilled the functional requirements. Overall the project was
-                complete in the required time interval and thus meet the
-                criteria given by stake-holders.
+                The project was complete and the results fully fulfilled the
+                functional requirements. Overall the project was complete in the
+                required time interval and thus meet the criteria given by
+                stake-holders.
               </div>
             </div>
           </div>
