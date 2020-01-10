@@ -34,12 +34,22 @@ class Andersen extends Component {
           <h1 className="project_">Andersen Corp</h1>
           <div className="content">
             <p className="description">
-              blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              Andersen corporation is a custom windows and doors manufacturing
+              company across North America. Andersen believes in providing its
+              customers with the best quality products at a reasonable cost. To
+              do this all products manufactured at Andersen have to go through a
+              strict design and construction process. During my time at
+              Andersen, I worked with a team of 3 engineers. Due to shortage of
+              engineers at the time, I was able to take on critical projects and
+              assist on major installations in the facility.
             </p>
             <img className="pic1" src={Sunset} />
           </div>
           <p className="second_paragraph">
-            blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+            During my time at Andersen, I was involved in many projects which
+            required indept knowledge of CAD modelling(SolidWorks). Furthermore,
+            I gained lots of experience in project management and managing
+            multiple projects simultaneously.
           </p>
           <div className="pic_container">
             <img className="pic" src={Sunset} />
@@ -48,16 +58,13 @@ class Andersen extends Component {
           </div>
           <div className="contraint_container">
             <div className="contraint">
-              <h1>Purpose</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              <h1></h1>
             </div>
             <div className="contraint">
-              <h1>Approach</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              <h1></h1>
             </div>
             <div className="contraint">
-              <h1>Results</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              <h1></h1>
             </div>
           </div>
           <div className="pic_container">

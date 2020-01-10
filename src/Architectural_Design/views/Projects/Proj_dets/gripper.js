@@ -80,7 +80,7 @@ class gripper extends Component {
                 The addition of a manual lifter with a custom designed gripper
                 arm would increase the speed at which spindle reinstallation can
                 take place. This is the significant downtime in this process and
-                thus would make the biggest impact on process time imporovement.
+                thus would make the biggest impact on process time improvement.
               </div>
             </div>
             <div className="contraint">

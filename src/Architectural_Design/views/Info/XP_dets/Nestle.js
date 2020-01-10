@@ -51,7 +51,7 @@ class Nestle extends Component {
             existing equipment.
           </p>
 
-          <div className="Summary of Work">
+          <div className="Summary_of_Work">
             <h1>Summary of Work</h1>
             During my time at Nestle, I was part of a capstone project which
             involved the installation of a Dye mixing tank. This project in the

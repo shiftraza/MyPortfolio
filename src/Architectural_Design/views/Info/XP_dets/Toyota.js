@@ -69,16 +69,13 @@ class Toyota extends Component {
           </div>
           <div className="contraint_container">
             <div className="contraint">
-              <h1>Purpose</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              <h1></h1>
             </div>
             <div className="contraint">
-              <h1>Approach</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              <h1></h1>
             </div>
             <div className="contraint">
-              <h1>Results</h1>
-              123blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+              <h1></h1>
             </div>
           </div>
           <div className="pic_container">

@@ -1,5 +1,5 @@
 .head1 {
-    background-color: black;
+    background-color: seashell;
     width: 90%;
     position: absolute;
     margin-left: 5%;
@@ -18,6 +18,10 @@
     height: 30%;
 }
 
+p {
+    line-height: 2em;
+    text-align: justify;
+}
 
 .airplane_1 {
     width: 35%;
