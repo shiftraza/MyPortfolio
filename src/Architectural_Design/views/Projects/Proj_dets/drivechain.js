@@ -39,7 +39,7 @@ class drivechain extends Component {
             on the opposite side of the turn which had to travel a further
             distance than the in-side wheels. the mates linking the wheel to
             axle would wear-out over a long period of driving. To fix this
-            issue, an oen differential concept was developed to allow for the
+            issue, an open differential concept was developed to allow for the
             outside wheel to travel a longer distance without skidding, thus
             preventing wear and tear.
           </p>

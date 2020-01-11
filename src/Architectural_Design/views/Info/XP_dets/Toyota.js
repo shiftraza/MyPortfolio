@@ -31,7 +31,7 @@ class Toyota extends Component {
         <Header drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         <div className="all_info">
-          <h1 className="experience_">Toyota</h1>
+          <h1 className="experience_">Toyota Motors Manufacturing</h1>
           <div className="content">
             <p className="description">
               Toyota Motors is one of the world's leading car manufacturing

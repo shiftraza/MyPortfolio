@@ -3,8 +3,8 @@ import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
 import airplane_pic from "../../../../images/Website_pictures/Picture22.png";
 import airplane_pic1 from "../../../../images/Website_pictures/Picture21.png";
-import airplane_pic2 from "../../../../images/Website_pictures/Picture21.png";
-import airplane_pic3 from "../../../../images/Website_pictures/Picture21.png";
+import airplane_pic2 from "../../../../images/Website_pictures/Picture20.png";
+import airplane_pic3 from "../../../../images/Website_pictures/Landing_gear.PNG";
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -60,9 +60,9 @@ class airplane extends Component {
           atleast 30mph neccesary for take-off on a 15 meter runway.
         </p>
         <div className="pic_container">
-          <img className="pic" src={airplane_pic} />
-          <img className="pic" src={airplane_pic} />
-          <img className="pic" src={airplane_pic} />
+          <img className="pic" src={airplane_pic1} />
+          <img className="pic" src={airplane_pic2} />
+          <img className="pic" src={airplane_pic3} />
         </div>
         <div className="contraint_container">
           <div className="contraint">
@@ -89,11 +89,6 @@ class airplane extends Component {
               will have to be redesigned to fit functional requirements.
             </div>
           </div>
-        </div>
-        <div className="pic_container">
-          <img className="pic" src={airplane_pic} />
-          <img className="pic" src={airplane_pic} />
-          <img className="pic" src={airplane_pic} />
         </div>
       </div>
     );

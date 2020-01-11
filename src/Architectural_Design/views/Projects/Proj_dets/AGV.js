@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
-import AGV_pic from "../../../../images/Website_pictures/Picture18.png";
+import AGV_pic from "../../../../images/Website_pictures/123.PNG";
 import AGV_pic1 from "../../../../images/Website_pictures/Picture17.png";
 import AGV_pic2 from "../../../../images/Website_pictures/Picture16.png";
-import AGV_pic3 from "../../../../images/Website_pictures/Picture18.png";
+import AGV_pic3 from "../../../../images/Website_pictures/1_results.JPG";
+import AGV_pic4 from "../../../../images/Website_pictures/AGV_underbelly.PNG";
+import AGV_pic5 from "../../../../images/Website_pictures/Sidepic.JPEG";
+import AGV_pic6 from "../../../../images/Website_pictures/Finalpic.JPG";
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -58,7 +61,7 @@ class AGV extends Component {
         <div className="pic_container">
           <img className="pic" src={AGV_pic1} />
           <img className="pic" src={AGV_pic2} />
-          <img className="pic" src={AGV_pic} />
+          <img className="pic" src={AGV_pic3} />
         </div>
         <div className="contraint_container">
           <div className="contraint">
@@ -90,9 +93,9 @@ class AGV extends Component {
           </div>
         </div>
         <div className="pic_container">
-          <img className="pic" src={AGV_pic} />
-          <img className="pic" src={AGV_pic} />
-          <img className="pic" src={AGV_pic} />
+          <img className="pic" src={AGV_pic4} />
+          <img className="pic" src={AGV_pic5} />
+          <img className="pic" src={AGV_pic6} />
         </div>
       </div>
     );
