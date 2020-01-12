@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
 import Sunset from "../../../../images/img/Sunset.jpg";
+import cart_1 from "../../../../images/Website_pictures/Picture9.png";
+import cart_2 from "../../../../images/Website_pictures/Picture10.png";
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -46,7 +48,7 @@ class cart extends Component {
             total of 1500 dollars to manufacture, giving a total project cost of
             $30,000.
           </p>
-          <img className="pic1" src={Sunset} />
+          <img className="pic__1" src={cart_1} />
         </div>
         <p className="second_paragraph">
           The carts were manufactured using standard steel. The cart was tested
@@ -54,9 +56,7 @@ class cart extends Component {
           tested using a 100KG weight to ensure safety compliance.
         </p>
         <div className="pic_container">
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
+          <img className="pic_only_1" src={cart_2} />
         </div>
         <div className="contraint_container">
           <div className="contraint">
@@ -83,11 +83,6 @@ class cart extends Component {
               structurally sound.
             </div>
           </div>
-        </div>
-        <div className="pic_container">
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
         </div>
       </div>
     );

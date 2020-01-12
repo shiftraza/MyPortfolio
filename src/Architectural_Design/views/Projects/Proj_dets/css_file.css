@@ -85,6 +85,14 @@ p {
     margin-bottom: 2%;
 }
 
+.pic_only_1 {
+    margin: 30%;
+    width: 40%;
+    height: 10cm;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 @media (max-width:768px) {
     .purpose {
