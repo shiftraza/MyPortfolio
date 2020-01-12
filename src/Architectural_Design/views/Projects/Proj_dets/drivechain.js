@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
-import Sunset from "../../../../images/img/Sunset.jpg";
+import Sunset from "../../../../images/Website_pictures/Moving_image.gif";
+import pic2 from "../../../../images/Website_pictures/differential1.gif";
+import pic3 from "../../../../images/Website_pictures/diff_radius.gif";
+import pic4 from "../../../../images/Website_pictures/Differential.jpg";
+
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -43,7 +47,7 @@ class drivechain extends Component {
             outside wheel to travel a longer distance without skidding, thus
             preventing wear and tear.
           </p>
-          <img className="pic1" src={Sunset} />
+          <img className="pic1_drive" src={Sunset} />
         </div>
         <p className="second_paragraph">
           The drivechain would have to be large enough to be 3D printable and
@@ -53,9 +57,11 @@ class drivechain extends Component {
           Solidworks to reduce material costs of prototyping.
         </p>
         <div className="pic_container">
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
+          <img className="drive1" src={pic2} />
+          <div className="driver">
+            <img className="drive2" src={pic3} />
+          </div>
+          <img className="drive3" src={Sunset} />
         </div>
         <div className="contraint_container">
           <div className="contraint">
@@ -85,9 +91,7 @@ class drivechain extends Component {
           </div>
         </div>
         <div className="pic_container">
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
-          <img className="pic" src={Sunset} />
+          <img className="pic" src={pic4} />
         </div>
       </div>
     );

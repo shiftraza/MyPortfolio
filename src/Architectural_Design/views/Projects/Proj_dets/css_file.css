@@ -6,6 +6,14 @@
     overflow-wrap: break-word;
 }
 
+
+.pic1_drive {
+    width: 35%;
+    margin-right: 2%;
+    margin-left: 6%;
+    height: 30%;
+}
+
 .content {
     overflow-wrap: break-word;
     display: flex;
@@ -16,6 +24,37 @@
     margin-right: 2%;
     margin-left: 6%;
     height: 30%;
+}
+
+.drive1 {
+    width: 33.33%;
+    height: 7cm;
+    flex-wrap: wrap;
+    margin-top: 9%;
+    margin-bottom: 2%;
+}
+
+.driver {
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2.5%;
+}
+
+.drive2 {
+    width: 100%;
+    height: 10cm;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.drive3 {
+    width: 33.33%;
+    height: 11cm;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 p {
@@ -75,6 +114,7 @@ p {
     width: 30%;
     overflow-wrap: break-word;
     margin-right: 3%;
+    margin-bottom: 2cm;
 }
 
 .pic {
