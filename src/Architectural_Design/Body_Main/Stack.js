@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../images/PDF/ArmghanHaiderResume.pdf";
+import Resume from "../../images/PDF/Armghan Haider_Resume_Package.pdf";
 import "../views/Home/Home.css";
 
 export default function Rez() {
