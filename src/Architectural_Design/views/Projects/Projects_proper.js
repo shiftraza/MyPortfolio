@@ -4,7 +4,6 @@ import "./Projects.css";
 import Back from "../About/Back";
 import SideDrawer from "../../../Architectural_Design/Design/sidebar_components/SideDrawer";
 import Backdrop from "../../Design/sidebar_components/Backdrop";
-
 class Projects2 extends Component {
   state = {
     sideDrawerOpen: false

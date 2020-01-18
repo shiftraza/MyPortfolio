@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../../../Design/header";
 import "../Proj_dets/css_file.css";
-import Sunset from "../../../../images/img/Sunset.jpg";
+import Sunset from "../../../../images/Website_pictures/coming-soon.jpg";
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
