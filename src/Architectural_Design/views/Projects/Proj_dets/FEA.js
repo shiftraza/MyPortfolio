@@ -5,7 +5,9 @@ import pic1 from "../../../../images/Website_pictures/Capture.PNG";
 import pic2 from "../../../../images/Website_pictures/Capture2.PNG";
 import pic3 from "../../../../images/Website_pictures/Table.PNG";
 import pic4 from "../../../../images/Website_pictures/Table2.PNG";
-
+import pic5 from "../../../../images/Website_pictures/Captured.PNG";
+import pic6 from "../../../../images/Website_pictures/Captured1.PNG";
+import pic7 from "../../../../images/Website_pictures/Captured2.PNG";
 import SideDrawer from "../../../Design/sidebar_components/SideDrawer";
 import Backdrop from "../../../Design/sidebar_components/Backdrop";
 
@@ -49,7 +51,12 @@ class FEA extends Component {
           <div className="contraint_container">
             <div className="contraint"></div>
           </div>
-          <div className="pic_container"></div>
+          <div className="pic_container1">
+            {" "}
+            <img className="pic_cantilever" src={pic5} />
+            <img className="pic_cantilever" src={pic6} />
+            <img className="pic_cantilever" src={pic7} />
+          </div>
         </div>
       </div>
     );

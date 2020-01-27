@@ -103,6 +103,18 @@ p {
     width: 100%;
 }
 
+.pic_cantilever {
+    width: 100%;
+    flex-direction: wrap;
+}
+
+.pic_container1 {
+    display: flex;
+    flex-direction: column;
+    height: 10cm;
+    width: 100%;
+}
+
 .contraint_container {
     width: 99%;
     height: 100%;
