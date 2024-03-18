@@ -13,7 +13,7 @@ export default function Component1() {
         <div style={props}>
           <p className="Intro">
             <b className="subsec">
-              Undergraduate Student at the University of Waterloo
+              Mechanical Design Engineer
             </b>
           </p>
         </div>
